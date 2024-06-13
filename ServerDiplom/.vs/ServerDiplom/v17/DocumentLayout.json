@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Programs\\visual projects\\ServerDiplom\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DFDAFDE3-8178-4240-8126-93AFC94FAC7A}|ServerDiplom\\ServerDiplom.csproj|d:\\programs\\visual projects\\serverdiplom\\serverdiplom\\controllers\\classroomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFDAFDE3-8178-4240-8126-93AFC94FAC7A}|ServerDiplom\\ServerDiplom.csproj|solutionrelative:serverdiplom\\controllers\\classroomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFDAFDE3-8178-4240-8126-93AFC94FAC7A}|ServerDiplom\\ServerDiplom.csproj|d:\\programs\\visual projects\\serverdiplom\\serverdiplom\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFDAFDE3-8178-4240-8126-93AFC94FAC7A}|ServerDiplom\\ServerDiplom.csproj|solutionrelative:serverdiplom\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFDAFDE3-8178-4240-8126-93AFC94FAC7A}|ServerDiplom\\ServerDiplom.csproj|d:\\programs\\visual projects\\serverdiplom\\serverdiplom\\controllers\\greetingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFDAFDE3-8178-4240-8126-93AFC94FAC7A}|ServerDiplom\\ServerDiplom.csproj|solutionrelative:serverdiplom\\controllers\\greetingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClassroomController.cs",
+              "DocumentMoniker": "D:\\Programs\\visual projects\\ServerDiplom\\ServerDiplom\\Controllers\\ClassroomController.cs",
+              "RelativeDocumentMoniker": "ServerDiplom\\Controllers\\ClassroomController.cs",
+              "ToolTip": "D:\\Programs\\visual projects\\ServerDiplom\\ServerDiplom\\Controllers\\ClassroomController.cs",
+              "RelativeToolTip": "ServerDiplom\\Controllers\\ClassroomController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAMIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T01:06:23.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ItemsController.cs",
+              "DocumentMoniker": "D:\\Programs\\visual projects\\ServerDiplom\\ServerDiplom\\Controllers\\ItemsController.cs",
+              "RelativeDocumentMoniker": "ServerDiplom\\Controllers\\ItemsController.cs",
+              "ToolTip": "D:\\Programs\\visual projects\\ServerDiplom\\ServerDiplom\\Controllers\\ItemsController.cs",
+              "RelativeToolTip": "ServerDiplom\\Controllers\\ItemsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T18:14:10.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GreetingController.cs",
+              "DocumentMoniker": "D:\\Programs\\visual projects\\ServerDiplom\\ServerDiplom\\Controllers\\GreetingController.cs",
+              "RelativeDocumentMoniker": "ServerDiplom\\Controllers\\GreetingController.cs",
+              "ToolTip": "D:\\Programs\\visual projects\\ServerDiplom\\ServerDiplom\\Controllers\\GreetingController.cs",
+              "RelativeToolTip": "ServerDiplom\\Controllers\\GreetingController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T01:08:18.171Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

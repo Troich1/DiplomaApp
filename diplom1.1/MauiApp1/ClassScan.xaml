@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:cv="clr-namespace:Camera.MAUI;assembly=Camera.MAUI"
+             xmlns:zxing="clr-namespace:ZXing.Net.Maui.Controls;assembly=ZXing.Net.MAUI.Controls"
+             x:Class="MauiApp1.ClassScan">
+
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="20" Margin="20" 
+                         WidthRequest="-1" HeightRequest="-1"
+                        VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+
+
+            <StackLayout Padding="20" Spacing="20" 
+            x:Name="Cameralayout"
+            IsVisible="True">
+
+                <zxing:CameraBarcodeReaderView
+                x:Name="barcodeReader"
+                WidthRequest="300"
+                HeightRequest="300"
+                BarcodesDetected="barcodeReader_BarcodesDetected"/>
+
+            </StackLayout>
+
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

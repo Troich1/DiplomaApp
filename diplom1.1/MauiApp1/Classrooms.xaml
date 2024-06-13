@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.Classrooms"
+             Title="Кабинеты">
+
+    <ScrollView Orientation="Vertical">
+        <VerticalStackLayout Spacing="20" Margin="20">
+
+            <HorizontalStackLayout Spacing="20">
+            <Button
+              x:Name="ConnectButton"
+              Text="Обновить"
+              IsVisible="False"
+              Clicked="OnConnectButtonClicked"
+              HorizontalOptions="FillAndExpand"/>
+
+            <!--<Button
+              x:Name="AddButton"
+              Text="Добавить"
+              IsVisible="True"
+              HorizontalOptions="FillAndExpand"/>-->
+            </HorizontalStackLayout>
+
+            <ScrollView Orientation="Horizontal">
+                <Grid x:Name="ClassGrid" RowSpacing="10" ColumnSpacing="10">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="auto" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Grid.RowDefinitions>
+                        <!-- Определения строк для заголовков и данных -->
+                        <RowDefinition Height="Auto"/>
+                        <!-- Определения строк для дивайдеров -->
+                        <RowDefinition Height="1"/>
+                        <!-- Повторите для каждой строки данных и дивайдера -->
+                    </Grid.RowDefinitions>
+
+                    <!-- Заголовки столбцов -->
+                    <Label FontAttributes="Bold" Grid.Column="0" />
+                    <Label Text="ID" FontAttributes="Bold" Grid.Column="1" />
+                    <Label Text="Название" FontAttributes="Bold" Grid.Column="2" />
+                    <Label Text="Тип" FontAttributes="Bold" Grid.Column="3" />
+                     <!-- Элементы будут добавлены динамически из кода C# -->
+
+                    <BoxView Grid.Row="1" Grid.ColumnSpan="10" HeightRequest="1" BackgroundColor="LightGray" />
+
+                </Grid>
+            </ScrollView>
+          
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
