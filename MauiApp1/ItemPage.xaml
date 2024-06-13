@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:cv="clr-namespace:Camera.MAUI;assembly=Camera.MAUI"
+             xmlns:zxing="clr-namespace:ZXing.Net.Maui.Controls;assembly=ZXing.Net.MAUI.Controls"
+             x:Class="MauiApp1.ItemPage"
+             Title="Подробнее">
+
+
+    <ScrollView>
+            
+        
+        <StackLayout x:Name="tableItems" VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand" Margin="20" Spacing="20">
+
+
+                <HorizontalStackLayout Spacing="20">
+                <Button Text="Обновить статус"
+                    Clicked="OnUpdateButtonClicked"
+                    HorizontalOptions="FillAndExpand" />
+
+                <Button Text="Поделиться QR-кодом"
+                    Clicked="OnCopyButtonClicked"
+                    HorizontalOptions="FillAndExpand" />
+                </HorizontalStackLayout>
+        
+            <VerticalStackLayout x:Name="infoId" >
+                <Label Text="ID:"  FontAttributes="Bold"/>
+            </VerticalStackLayout>
+
+            <VerticalStackLayout x:Name="infoName">
+                <Label Text="Название:"  FontAttributes="Bold"/>
+            </VerticalStackLayout>
+
+            <VerticalStackLayout x:Name="infoNameType">
+                <Label Text="Тип:"  FontAttributes="Bold"/>
+            </VerticalStackLayout>
+
+            <VerticalStackLayout x:Name="infoQuantity">
+                <Label Text="Количество:"  FontAttributes="Bold"/>
+            </VerticalStackLayout>
+
+            <VerticalStackLayout x:Name="infoPrice">
+                <Label Text="Цена:" FontAttributes="Bold" />
+            </VerticalStackLayout>
+
+            <VerticalStackLayout x:Name="infoState">
+                <Label Text="Состояние:" FontAttributes="Bold" />
+            </VerticalStackLayout>
+
+            <VerticalStackLayout x:Name="infoClassName">
+                <Label Text="Помещение:" FontAttributes="Bold" />
+            </VerticalStackLayout>
+
+            <VerticalStackLayout x:Name="infoInventoryCode">
+                <Label Text="Инвентарный номер:" FontAttributes="Bold" />
+            </VerticalStackLayout>
+
+            <VerticalStackLayout x:Name="infoFactoryCode">
+                <Label Text="Заводской номер:" FontAttributes="Bold" />
+            </VerticalStackLayout>
+
+            <VerticalStackLayout x:Name="infoIdClass" IsVisible="False"> <!--Видимость отключена-->
+                <Label Text="ID помещения:" FontAttributes="Bold" />
+            </VerticalStackLayout>
+
+            <!--<VerticalStackLayout x:Name="infoIdType">
+                <Label Text="ID типа:" FontAttributes="Bold" />
+            </VerticalStackLayout>-->
+
+
+            <VerticalStackLayout  MaximumHeightRequest="200" MaximumWidthRequest="200">
+                <Image x:Name="qrCodeImage" 
+                   HorizontalOptions="Center" VerticalOptions="Center"/>
+                </VerticalStackLayout>
+                
+                <!--<VerticalStackLayout MaximumHeightRequest="200" MaximumWidthRequest="200">
+  
+            <zxing:BarcodeGeneratorView
+        ForegroundColor="DarkBlue"
+        Value="{Binding Id}"
+        Format="QrCode"
+              
+        HorizontalOptions="Start">
+                    <zxing:BarcodeGeneratorView.HeightRequest>
+                        <OnPlatform x:TypeArguments="x:Double">
+                            <On Platform="Android" Value="200" />
+                            <On Platform="WinUI" Value="150" />
+                            --><!-- Уменьшенный размер для WinUI --><!--
+                        </OnPlatform>
+                    </zxing:BarcodeGeneratorView.HeightRequest>
+                    <zxing:BarcodeGeneratorView.WidthRequest>
+                        <OnPlatform x:TypeArguments="x:Double">
+                            <On Platform="Android" Value="200" />
+                            <On Platform="WinUI" Value="150" />
+                            --><!-- Уменьшенный размер для WinUI --><!--
+                        </OnPlatform>
+                    </zxing:BarcodeGeneratorView.WidthRequest>
+                </zxing:BarcodeGeneratorView>
+            </VerticalStackLayout>-->
+
+           
+
+            <!--<Button
+               x:Name="ChangeButton"
+               Text="Изменить"    
+               IsVisible="True"
+               HorizontalOptions="FillAndExpand"/>-->
+
+            <!--<Button Text="Распечатать QR-код"
+                Clicked="OnPrintButtonClicked"
+                HorizontalOptions="FillAndExpand"/>-->
+
+
+        </StackLayout>
+   
+        
+    </ScrollView>
+</ContentPage>
