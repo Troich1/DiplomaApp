@@ -1,1 +1,0 @@
-D:\Programs\visual projects\diplom1.1\MauiApp1\MauiApp1.csproj;x64
